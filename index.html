@@ -13,9 +13,13 @@
     <section class="down-side">
         <h1 class="down-side__title">Type your friend's name</h1>
         <form action="" class="down-side__form-container">
-            <input class="down-side__field-to-type" type="text" placeholder="The name's here">
+            <input id="down-side__field-to-type" class="down-side__field-to-type" type="text" placeholder="The name's here">
             <button class="down-side__add-button" type="button" onclick="addFriend()">Add</button>
         </form>
+
+        <ul id="friendList" class="friendList"></ul>
+        <ul id="friendResult"></ul>
+
         <button class="down-side__draw-button">Draw friend</button>
     </section>
     <div class="about-me">
