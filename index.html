@@ -12,15 +12,17 @@
     </section>
     <section class="down-side">
         <h1 class="down-side__title">Type your friend's name</h1>
-        <form action="" class="down-side__form-container">
-            <input id="down-side__field-to-type" class="down-side__field-to-type" type="text" placeholder="The name's here">
+
+        <div action="" class="down-side__form-container">
+            <input id="down-side__field-to-type" class="down-side__field-to-type" type="text" placeholder="Type the name here" autocomplete="off">
             <button class="down-side__add-button" type="button" onclick="addFriend()">Add</button>
-        </form>
-
-        <ul id="friendList" class="friendList"></ul>
-        <ul id="friendResult"></ul>
-
-        <button class="down-side__draw-button">Draw friend</button>
+        </div>
+        
+        <div class="down-side__friends">
+            <ul id="down-side__friendList" class="friendList"></ul>
+            <ul id="down-side__friendResult"></ul>
+        </div>
+        <button class="down-side__draw-button" onclick="chooseFriend()">Draw friend</button>
     </section>
     <div class="about-me">
         <p class="about-me__created-by">Created by</p>

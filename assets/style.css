@@ -19,6 +19,8 @@ body {
 
 .down-side__title {
     color: black;
+    font-size: 40px;
+    margin: 10px;
 }
 
 .down-side__form-container {
@@ -27,14 +29,14 @@ body {
 }
 
 .down-side__form-container .down-side__field-to-type {
-    width:300px;
-    height: 30px;
+    width: 400px;
+    height: 50px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 0px;
+    border-bottom-right-radius: -0px;
     border-top-right-radius: 0px;
     border-style: solid;
-    border-color: black
+    border-color: black;
 }
 
 .down-side__field-to-type {
@@ -43,7 +45,7 @@ body {
 
 .down-side__form-container .down-side__add-button {
     width: 85px;
-    height: 35px;
+    height: 55px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 0px;
@@ -55,10 +57,27 @@ body {
 
 
 .down-side__draw-button {
-    margin-top: 25px;
-    width: 120px;
-    height: 35px;
+    width: 170px;
+    height: 50px;
     border-radius: 20px;
+}
+
+#down-side__friendList {
+    padding: 0 0 0 10px;
+}
+li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#down-side__friendResult {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 0 0 20px;
+    padding: 0 0 0 10px;
+    color: red;
 }
 
 .about-me {
