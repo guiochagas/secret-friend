@@ -56,11 +56,19 @@ body {
 }
 
 
-.down-side__draw-button {
+.down-side__buttons_2 .down-side__draw-button {
     width: 170px;
     height: 50px;
     border-radius: 20px;
 }
+
+
+.down-side__buttons_2 .down-side__reset-button {
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+}
+
 
 #down-side__friendList {
     padding: 0 0 0 10px;

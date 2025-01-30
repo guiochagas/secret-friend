@@ -36,8 +36,12 @@ function randomNumber() {
 function chooseFriend() {
     const chosenFriend = friendsList[randomNumber()];
     const result = document.getElementById("down-side__friendResult");
-    result.innerHTML = chosenFriend;
-    return result
+    if (friendsList.length < 2) {
+        alert("You have to add at least two friends")
+    } else {
+        result.innerHTML = chosenFriend;
+        return result
+    }
 }
 
 
