@@ -5,4 +5,6 @@
 <br>
 <p>Apesar de ser um programa simples, me diverti bastante.</p>
 <br>
-<p>Acesse a aplicação aqui: <a>https://guiochagas/secret-friend</a></p>
+<p>Acesse a aplicação aqui:</p>
+
+[https://guiochagas/secret-friend](https://guiochagas.github.io/secret-friend/)
